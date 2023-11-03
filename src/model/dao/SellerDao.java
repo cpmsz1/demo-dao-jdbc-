@@ -11,4 +11,5 @@ public interface SellerDao {
 	List<Seller> findAll();
 	List<Seller> findByDepartment(Department department);
 	void insert(Seller obj);
+	void update(Seller seller);
 }
